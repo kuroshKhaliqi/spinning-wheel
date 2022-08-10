@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  /* border: 2px solid red; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+#wheel {
+  width: 40%;
+}
+
+button {
+  padding: 1em 2em;
+  color: yellow;
+  background-color: red;
+}
+
+#ticker {
+  margin-top: 4em;
+}
+
+#popUp {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.523);
+  display: none;
+  z-index: 10;
+}
+#popUp-content {
+  width: 50%;
+  padding: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#close {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 0.5em;
+}
